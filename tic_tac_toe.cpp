@@ -204,10 +204,10 @@ char Win()
             return 'O';
         
     else if (matrix[0][0] =='O' && matrix[1][1] == 'O' && matrix[2][2] == 'O')
-            cout << " PLAYER OF O  WON ";
+            return 'O;
 
     else if (matrix[2][0] =='O' && matrix[1][1] == 'O' && matrix[0][2] == 'O')
-            cout << " PLAYER OF O  WON ";
+            return 'O";
 
 return 0;
 
