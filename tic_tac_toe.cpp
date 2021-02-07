@@ -46,7 +46,7 @@ void Input ()
     }   
     else if (a == 2)
     {    
-        if( matrix[0][1] ='2')
+        if( matrix[0][1] =='2')
         
         {
             matrix[0][1] = player;
